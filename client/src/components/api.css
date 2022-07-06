@@ -1,0 +1,109 @@
+.all{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    text-align: center;
+}
+
+.inputs{
+    /* border: 2px solid black; */
+    transform: translate(5%);
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5rem;
+    text-align: center;
+}
+
+
+.box-n-icon{
+    position: relative;
+    display: grid;
+    /* border: 2px solid green; */
+    height: 10vh;
+    left: 10rem;
+    top: 5rem;
+    grid-template-columns: 5fr 1fr;
+    width: 130vh;
+    /* grid-gap: 5rem; */
+    text-align: center;
+}
+.go-icon{
+    border: 2px solid black;
+    background-color: yellow;
+}
+.suggestion{
+    position: relative;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-rows: .2fr 1fr 1fr;
+    top: 7rem;
+    /* border: 2px solid blue; */
+    width: 90vw;
+    text-align: center;
+    height: 50vh;
+}
+
+.row1, .row2{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    text-align: center;
+}
+
+.cols{
+    border:2px solid green ;
+    text-align: center;
+}
+
+.details{
+    display: grid;
+    /* border: 2px solid red; */
+    grid-template-rows: 1fr 1fr;
+    width: 90vw;
+    height: 120vh;
+    transform: translate(5%, 15%);
+    grid-gap: 5rem;
+    text-align: center;
+}
+
+.details-row1, .details-row2{
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    text-align: center;
+}
+
+.detail-card-1, .detail-card-2, .detail-card-3, .detail-card-4{
+    border: 2px solid blue;
+    margin: 2rem;
+    grid-gap: 5rem;
+    text-align: center;
+}
+
+.detail-card-1, .detail-card-2, .detail-card-3, .detail-card-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-data-1, .detail-data-2, .detail-data-3, .detail-data-4{
+    /* border: 2px solid maroon; */
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-2rem);
+}
+
+.detail-data-2 h1{
+    padding-left: 40px; 
+    padding-right: 40px;
+    border-left: 40px;
+    border-right: 40px;
+}

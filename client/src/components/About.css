@@ -1,0 +1,200 @@
+/* *{
+    margin: 0;
+    padding : 0;
+}
+
+body{
+    height:500vh;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+
+.inputs{
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    transform: translate(-20%, 20%);
+}
+
+.inputAlignment{
+    position: relative;
+    left: 24rem;
+}
+
+.textfields{
+    width: 240%;
+}
+
+button{
+    height: 6vh;
+    width: 40%;
+    text-align: center;
+    transform: translate(-15%,1000%);
+}
+
+.presentation{
+    position:absolute;
+    top: 100%;
+    z-index: 100;
+}
+
+.side{
+    transform: translate(320%,10%);
+}
+
+.side .quench > h1 {
+    font-size: 70px;
+}
+
+.side .thirst > h1 {
+    font-size: 50px;
+}
+
+.side .here > h1 {
+    font-size: 50px;
+}
+
+.down{
+    transform: translate(-50%,90%);
+}
+
+h1{
+    font-size: bold;
+    font-weight:900;
+}
+.display{
+    position:absolute;
+    top: 90%;
+    left: 4%;
+    display: flex;
+}
+
+.thatswhy{
+    transform: translate(50%,200%);
+}
+
+
+.arrow img{
+    position: absolute;
+    width: 20px;
+    height: 2px;
+}
+
+
+button{
+    transform: translate(-4%, -25%);
+    width: 270%;
+}
+
+.second-row{
+    display: flex;
+    transform: translate(0%,600%);
+    justify-content: center;
+    align-items: center;
+}
+
+.clickable{
+    position: relative;
+}
+
+.second-row .text-in-second-row{
+    transform: translate(-350%,40%);
+}
+
+.second-row .clickable .two{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.second-row .clickable .one{
+    position: absolute;
+    height: 80px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.worth{
+    display: block;
+    height:4rem;
+    border:2px solid rgb(240, 245, 242);
+    transform: translate(94%,60%);
+    background-color: solid rgb(240, 245, 242);
+}
+.worth h1{
+    margin-top: 0.5rem;
+    font-size: 2rem;
+}
+
+
+ */
+
+ .inputs{
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+     /* border: 2px solid red; */
+ }
+
+
+ .inputAlignment{
+     /* border: 2px solid red; */
+     width: 40vw;
+     transform: translate(0,10%);
+ }
+
+ .inputAlignment > input{
+     width: 100%; 
+ }
+
+ .side{
+     /* border: 2px solid green; */
+     width: 40vw;
+     transform: translate(120%,-120%);
+ }
+
+ .side .here h1 {
+    font-weight: 900;
+ }
+
+ .side .quench h1 {
+    font-weight: 900;
+}
+
+.side .thirst h1 {
+    font-weight: 900;
+}
+
+
+ .worth{
+     /* border: 2px solid black; */
+ }
+
+ .prst-component{
+    /* border: 2px solid black; */
+    display: inline;
+ }
+
+ .presentation{
+     display: flex;
+     flex-direction: column;
+     width: 40rem;
+     height: 10rem;
+     transform: translate(40%);
+ }
+
